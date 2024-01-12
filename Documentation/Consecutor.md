@@ -9,8 +9,8 @@ Furthermore, this also means that multiple Headers handling similar data may nee
 
 <i>Example:</i>
 
-	Suppose a 'Unit' instance in a game has flags for 'Position' and 'Item' data updates, and the given Unit's position is constantly being updated while their items are not. Then, the Position data can be considered a non-critical piece of data that can be sent unreliably, while the Item data can be considered critical and must be sent reliably.
-	Here, we require 2 different Headers. We can call these 'Header_Unit' (for unreliable data) and 'Header_UnitCritical' (for reliable data). The ...
+Suppose a 'Unit' instance in a game has flags for 'Position' and 'Item' data updates, and the given Unit's position is constantly being updated while their items are not. Then, the Position data can be considered a non-critical piece of data that can be sent unreliably, while the Item data can be considered critical and must be sent reliably.
+Here, we require 2 different Headers. We can call these 'Header_Unit' (for unreliable data) and 'Header_UnitCritical' (for reliable data). The ...
 
 ***
 
